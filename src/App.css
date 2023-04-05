@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #1a202c;
+    color: #ffffffeb;
+}
+
+.App {
+    padding: 20px;
+}
+
+.App header h1 {
+    margin: 50px 0;
+    text-align: center;
+    line-height: 48px;
+}
+.App header h1 span {
+    color: #00bfa5;
+}
+.QuestionSection {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 20px 0;
+}
+.QuestionSection--Question span {
+    font-weight: 700;
+}
+.QuestionSection--Solution {
+    margin: 30px 0;
+    background-color: #011627;
+    border-radius: 8px;
+    padding: 20px;
+}
+.OutputBox {
+    padding: 20px;
+    font-size: 16px;
+    color: #00bfa5;
+}
+.label--output {
+    color: #addb67;
+}
+.QuestionSection--Code {
+    margin: 30px 0;
+    font-size: 16px;
+}
+.josn-title {
+    width: fit-content;
+    user-select: none;
+}
+.josn-title :hover {
+    cursor: pointer;
+    text-decoration: underline;
+    user-select: none;
+}
+
+.josn-data pre {
+    font-size: 14px;
+    line-height: 24px;
+    overflow: auto;
+}
